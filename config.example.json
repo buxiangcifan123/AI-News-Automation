@@ -1,0 +1,32 @@
+{
+    "deepseek_api_key": "your-deepseek-api-key",
+    "agnes_api_key": "your-agnes-api-key",
+    "trendradar_dir": "D:/path/to/AI-News-Automation/TrendRadar",
+    "email_smtp_host": "smtp.qq.com",
+    "email_smtp_port": 465,
+    "email_sender": "your_email@qq.com",
+    "email_password": "your-smtp-auth-code",
+    "email_receiver": "your_email@qq.com",
+    "obsidian_vault_path": "D:/path/to/ObsidianVault",
+    "obsidian_subfolder": "AI新闻",
+    "podcast_rss_urls": [
+        "https://lexfridman.com/feed/podcast/",
+        "https://twimlai.com/feed/"
+    ],
+    "podcast_output_dir": "D:/path/to/AI-News-Automation/podcasts",
+    "image_output_dir": "D:/path/to/AI-News-Automation/output/images",
+    "max_images_per_report": 5,
+    "blog_rss_urls": [
+        "https://huggingface.co/blog/feed.xml",
+        "https://openai.com/blog/rss.xml",
+        "https://www.marktechpost.com/feed/",
+        "https://deepmind.google/blog/rss.xml",
+        "https://syncedreview.com/feed/"
+    ],
+    "blog_output_dir": "D:/path/to/AI-News-Automation/blogs",
+    "whisper_model": "turbo",
+    "chromadb": {
+        "path": "D:/path/to/chroma_db",
+        "embedding_model": "nomic-embed-text"
+    }
+}

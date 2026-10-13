@@ -1,0 +1,5 @@
+chromadb
+faiss-cpu
+numpy
+feedparser
+openai-whisper

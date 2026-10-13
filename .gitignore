@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Node
+node_modules/
+
+# Output
+output/
+chroma_db/
+podcasts/
+
+# Environment
+.env
+*.env.local
+
+# OS
+Thumbs.db
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# TrendRadar（独立 git 仓库）
+/TrendRadar
+
+# Secrets / runtime state
+config.json
+last_run.txt
+*.log
